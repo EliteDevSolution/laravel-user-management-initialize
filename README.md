@@ -19,7 +19,6 @@ $ php artisan key:generate
 Database migrate and seed
 
 ```sh
-$ php artisan vendor:publish --tag="cashier-migrations"
 $ php artisan migrate --seed
 ```
 
